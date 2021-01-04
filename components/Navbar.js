@@ -5,6 +5,8 @@ const Navbar = () => {
         <div>
             <Link href="/"><button className="button">Homepage</button></Link>
             <Link href="about"><button className="button">About Us</button></Link>
+            <a href="/"><button className="button">Homepage</button></a>
+            <a href="/about"><button className="button">About Us</button></a>
 
             <style jsx>{`
                 
