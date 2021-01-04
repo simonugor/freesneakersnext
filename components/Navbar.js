@@ -8,6 +8,8 @@ const Navbar = () => {
             <a href="/"><button className="button">Homepage</button></a>
             <a href="/about"><button className="button">About Us</button></a>
 
+            <Link href="blog"><a className="a-tag">Blog</a></Link>
+
             <style jsx>{`
                 
                 .button {
@@ -17,6 +19,18 @@ const Navbar = () => {
                     outline: none;
                     border: 2px solid black;
                     border-radius: 5px;
+                }
+
+                .a-tag {
+                    background-color: white;
+                    margin-right: 2vw;
+                    padding: none;
+                    outline: none;
+                    border: 2px solid black;
+                    border-radius: 5px;
+                    text-decoration: none;
+                    color: black;
+                    font-size: 2vh;
                 }
                 
             `}</style>
